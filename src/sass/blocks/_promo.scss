@@ -1,0 +1,86 @@
+.promo {
+    min-height: 120vh;
+    position: relative;
+    background: url('../../src/img/main.png') no-repeat 50%/cover;
+
+    &_header{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 45px;
+
+        &_link{
+            color:$text-color;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding-right: 100px;
+            &:hover{
+                text-decoration: none;
+                color:$main-color;
+            }
+            &_contacts{
+                color: white;
+                text-transform: uppercase;
+                transition: 0.6s;
+                // padding-left: 100px;
+                &:hover{
+                    text-decoration: none;
+                    color:  $hover-color;
+                }
+            }
+        }
+    }
+    &_title{
+        width: 713px;
+        padding-top: 80px;
+
+    }
+    &__btns{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 620px;
+    }
+    &__link{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        transition: 0.6s;
+        &:hover{
+            color: $hover-color;
+            text-decoration: none;
+        }
+        &_order{
+            color: #008F65;
+        }
+
+    }
+    &_img_main{
+        position: absolute;
+        width: 605.49px;
+        height: 534.98px;
+        left: 820px;
+        top: 98px;
+
+
+    }
+    &_logo{
+        height: 95px;
+        width: 63px;
+        img{
+           transform: translateY(60%);
+        }
+    }
+}
+
+.header_bg{
+    position: absolute;
+    width: 100%;
+
+    left: 0px;
+    top: 0px;
+    display: none;
+    height: 100px;
+    background-color:#BADCCD;
+}

@@ -1,0 +1,366 @@
+@media (max-width:1200px) {
+    .container{
+        max-width: 960px;
+    }
+    .promo{
+        min-height: auto;
+        background: url('../../src/img/main.png') no-repeat 20%/cover;
+
+
+
+    }
+}
+
+@media (max-width:992px) {
+    .container{
+        max-width: 720px;
+
+    }
+    .promo{
+        &_header{
+            padding-top: 5px;
+            &_link{
+                padding-right: 50px;
+            }
+        }
+
+
+
+    }
+    .about{
+        color:$text-color;
+        padding-top: 100px;
+        &_wrapper{
+            padding-top: 50px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(5, minmax(100px, auto));
+            // grid-template-rows: minmax(160px, auto) minmax(96px, auto) minmax(81px, auto) minmax(47px, auto);
+            grid-auto-rows: minmax(47px, auto);
+            column-gap: 32px;
+            row-gap: 44px;
+            justify-items: center;
+        }
+        // &_pic{
+        //     ;
+        // }
+    }
+
+    .menu{
+        &_wrapper{
+            gap: 15px;
+        }
+        &_title{
+            margin-top: 40px;
+        }
+    }
+
+
+}
+
+@media (max-width:768px) {
+    .container{
+        max-width: 540px;
+
+    }
+
+    .title_main{
+        font-size: 40px;
+        width: 350px;
+    }
+
+    .promo{
+        min-height: auto;
+        background: url('../../src/img/main.png') no-repeat 10%/cover;
+        &_header{
+            &_link, &_link_contacts{
+                padding-right: 30px;
+                font-size: 1rem;
+            }
+
+
+
+        }
+
+        &__btns{
+            width: 100%;
+            font-size: 1rem;
+        }
+    }
+
+    .btn{
+        height: 100%;
+    }
+
+    .btn_order{
+        height: 100%;
+    }
+
+
+    // &_pic{
+    //     grid-row: 1/5;
+    // }
+
+    .menu{
+        &_wrapper{
+            gap: 7px;
+        }
+        &_title{
+            margin-top: 25px;
+        }
+    }
+
+
+
+    .contact{
+        font-size: 1rem;
+
+        &_form{
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding-bottom: 20px;
+            input{
+                padding-left: 20px;
+                height: 60px;
+                margin-bottom: 40px;
+                border-radius: 12px;
+                border: none;
+
+            }
+            textarea{
+                padding-left: 20px;
+                padding-top: 20px;
+                border-radius: 12px;
+                border: none;
+                margin-bottom: 45px;
+                resize: none;
+
+            }
+            .contact_policy{
+                font-size: 0.7rem;
+                // display: grid;
+                // grid-template-columns: repeat(2,auto);
+                display: flex;
+                align-items: center;
+                margin-bottom: 30px;
+                input{
+                    height: 12px;
+                    margin-bottom: 0px;
+                    margin-right: 20px;
+                }
+
+            }
+
+            .btn_send{
+
+                width: 70%;
+
+                font-size: 1rem;
+
+            }
+
+
+        }
+
+        &_social{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 30px;
+
+
+
+
+            &_item{
+                padding-top: 20px;
+                width: 70%;
+                img{
+                    margin-right: 20px;
+                }
+
+
+
+
+            }
+        }
+
+    }
+
+
+}
+
+@media (max-width:540px) {
+    .container{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .title_main{
+        font-size: 30px;
+        max-width: 150px;
+        margin-top: 30px;
+    }
+
+    .header_bg{
+        display: flex;
+    }
+
+    .promo{
+        &_header{
+            background-color:  #BADCCD;
+
+            &_menu{
+                display: none;
+            }
+            &_burger{
+                display: flex;
+            }
+        }
+        &_logo.img{
+            height: 30px;
+            width: auto;
+        }
+
+
+        &__btns{
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+        }
+
+        &_title{
+            padding-top: 20px;
+        }
+    }
+    .btn_order{
+
+        height: 100%;
+        font-size: 0.9rem;
+        padding:7px 20px;
+        background: #DCFAE7;
+        border: 2px dashed #50B193;
+        box-sizing: border-box;
+        border-radius: 24px;
+        margin-top: 15px;
+    }
+    .btn{
+
+        font-size: 0.9rem;
+        height: 100%;
+        background: #008F65;
+        border-radius: 24px;
+        padding: 7px 53px;
+
+    }
+
+    .about_wrapper{
+        display:none;
+    }
+    .about_title{
+        display: none;
+    }
+    .about{
+        padding-top: 30px;
+        .about2_title{
+            display: block;
+            margin: 0 auto;
+            font-size: 0.9rem;
+        }
+    .about2{
+        display: inline;
+        &_text {
+            padding-top: 20px;
+            font-size: 0.7rem;
+            text-align: center;
+        }
+        &_pic{
+            padding-top: 20px;
+            display: block;
+            margin: 0 auto;
+            width: 70px;
+            text-align: center;
+        }
+
+    }
+    }
+
+    .menu {
+
+        font-size: 00.9rem;
+        color:$text-color;
+        padding-top: 10px;
+
+        &_title{
+            margin-top: 15px;
+            font-size: 00.9rem;
+        }
+
+        &_wrapper{
+            padding-top: 15px;
+            display: grid;
+            grid-template-columns: repeat(2, minmax(100px, 300px));
+            grid-template-rows: repeat(3, minmax(136px, auto));
+            grid-auto-rows: minmax(240px, auto);
+            gap: 5px;
+            .item1{
+            border-radius: 6px;
+            grid-row: 1/2;
+            grid-column: 1/2;
+            background: url('../img/menu/pelm.jpg') no-repeat 50%/cover;
+
+            }
+            .item2{
+            border-radius: 6px;
+            grid-row: 1/2;
+            grid-column: 2/3;
+            background: url('../img/menu/varen.jpg') no-repeat 50%/cover
+            }
+            .item3{
+            grid-row:2/3;
+            grid-column: 1/2;
+            border-radius: 6px;
+            background: url('../img/menu/cake.jpg') no-repeat 50%/cover
+
+            }
+            .item4{
+            grid-column: 2/3;
+            grid-row: 2/4;
+            border-radius: 6px;
+            background: url('../img/menu/ravioli.jpg') no-repeat 50%/cover
+            }
+            .item5{
+            // border-radius: 12px;
+            background: url('../img/menu/author.jpg') no-repeat 50%/cover
+
+            }
+
+        }
+    }
+
+    .contact{
+        font-size: 0.7rem;
+
+        .btn_send{
+
+            width: 60%;
+            font-weight: bold;
+            font-size: 0.9rem;
+
+        }
+        &_form{
+            .contact_policy{
+                font-size: 0.5rem;
+            }
+        }
+
+        .img_social_cont{
+            width: 30px;
+            height: 30px;
+        }
+
+    }
+
+
+}

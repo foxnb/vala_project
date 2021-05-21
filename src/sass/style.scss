@@ -1,0 +1,51 @@
+@import 'libs/_bootstrap-reboot.min.scss';
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+@import 'base/variables';
+
+* {
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+
+}
+body{
+    background-color: #E8F0EB;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+a {
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+@import'blocks/promo';
+
+@import'blocks/title';
+
+@import'blocks/buttons';
+
+@import'blocks/about';
+
+@import'blocks/menu';
+
+@import'blocks/contact';
+@import'blocks/menupage';
+@import'blocks/burger';
+@import'blocks/media';
+@import'blocks/_mediamenupage.scss';
+
+
+
+
+
+

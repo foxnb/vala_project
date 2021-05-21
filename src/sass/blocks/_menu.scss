@@ -1,0 +1,66 @@
+.menu {
+
+    color:$text-color;
+    padding-top: 50px;
+        &_wrapper{
+            padding-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(100px, auto));
+        grid-template-rows: 240px 264px;
+        grid-auto-rows: minmax(240px, auto);
+        gap: 30px;
+        .item1{
+            border-radius: 12px;
+            grid-row: 1/3;
+            grid-column: 1/2;
+            background: url('../img/menu/pelm.jpg') no-repeat 50%/cover;
+
+        }
+        .item2{
+            border-radius: 12px;
+            background: url('../img/menu/varen.jpg') no-repeat 50%/cover
+        }
+        .item3{
+            grid-column:3/5;
+            border-radius: 12px;
+            background: url('../img/menu/cake.jpg') no-repeat 50%/cover
+
+        }
+        .item4{
+            grid-column: 2/4;
+            border-radius: 12px;
+            background: url('../img/menu/ravioli.jpg') no-repeat 50%/cover
+        }
+        .item5{
+            // border-radius: 12px;
+            background: url('../img/menu/author.jpg') no-repeat 50%/cover
+
+        }
+
+        }
+
+
+        &_link{
+            border-radius: 12px;
+            position: relative;
+            text-align: center;
+            transition: 0.6s;
+            &:hover{
+                text-decoration: none;
+                transform: scale(1.03);
+                filter:saturate(120%);
+            }
+        }
+        // &_name{
+        //     position: absolute;
+        //     bottom: 10px;
+        //     left: 10px;
+        // }
+    //     &_link img{
+
+
+    //     // height: 100%;
+    //     // width: 100%;
+    //     // object-fit: cover;
+    // }
+}

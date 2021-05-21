@@ -1,0 +1,24 @@
+.about{
+    color:$text-color;
+    padding-top: 40px;
+    &_wrapper{
+        padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(160px, auto) minmax(96px, auto) minmax(81px, auto) minmax(47px, auto);
+    grid-auto-rows: minmax(47px, auto);
+    column-gap: 32px;
+    row-gap: 44px;
+
+    }
+    &_pic{
+        grid-row: 1/5;
+    }
+    .about2_title{
+        display:none;
+    }
+    .about2{
+        display: none;
+
+    }
+}
