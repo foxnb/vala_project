@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Pangolin';
+    src: local('Pangolin Regular'), local('Pangolin-Regular'),
+        url('Pangolin-Regular.woff2') format('woff2'),
+        url('Pangolin-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
