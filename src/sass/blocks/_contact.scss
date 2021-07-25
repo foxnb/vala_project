@@ -57,6 +57,9 @@
         .email{
             text-transform: lowercase;
         }
+        .insta{
+            text-transform: lowercase;
+        }
 
         &_item{
             padding-top: 40px;
@@ -69,5 +72,16 @@
 
 
         }
+    }
+    &_address{
+        #map{
+
+                height: 400px;
+                margin-top: 1rem;
+
+        }
+    }
+    &_order{
+        margin-top: 2rem;
     }
 }

@@ -42,6 +42,6 @@ $headers .= "Reply-To: ". $from . "\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
-$success = mail("kippgloria@gmail.com", $subject, $template, $headers);
+$success = mail("vala.vkusno@gmail.com", $subject, $template, $headers);
 echo ($success) ? 'true' : 'false';
 ?>
