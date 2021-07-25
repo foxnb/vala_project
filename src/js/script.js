@@ -72,6 +72,8 @@ $(function () {
     closeElem.addEventListener('click', () => {
         panel.classList.remove('active');
     });
+
+
 });
 
 

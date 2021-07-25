@@ -100,9 +100,11 @@
             "027": { "id": "027", "subid": {}, "name": "черепашки с индейкой", "price": "600" },
 
 
-            "028": { "id": "028", "subid": {}, "name": " с индейкой", "price": "600" },
-            "029": { "id": "029", "subid": {}, "name": "миньоны с индейкой", "price": "600" },
-            "030": { "id": "030", "subid": {}, "name": "черепашки с индейкой", "price": "600" },
+            "028": { "id": "028", "subid": {}, "name": "лисички с картошкой", "price": "600" },
+            "029": { "id": "029", "subid": {}, "name": "цыплята с картошкой", "price": "600" },
+            "030": { "id": "030", "subid": {}, "name": "цветные свин. и говядиной", "price": "600" },
+            "031": { "id": "030", "subid": {}, "name": "цветные утка имбирь", "price": "600" },
+            "032": { "id": "030", "subid": {}, "name": "цветные тофу, шпинат, кедров", "price": "600" },
 
         };
     </script>
@@ -114,12 +116,12 @@
         <div class="container">
             <header class="promo_header">
                 <a href="index.html" class="promo_logo">
-                    <img src="icons/logo/vala logo final.svg" alt="lorem">
+                    <img src="icons/logo/vala logo final.svg" alt="пельмени вареники лого">
                 </a>
                 <div class="promo_header_menu">
                     <a href="menu.html" class="promo_header_link">Меню</a>
                     <a href="index.html#about" class="promo_header_link">О нас</a>
-                    <a href="" class="promo_header_link">Доставка</a>
+                    <a href="index.html#deliveryoption" class="promo_header_link">Доставка</a>
                     <a href="index.html#contact" class="promo_header_link_contacts btn_contact">Контакты</a>
                 </div>
                 <div class="promo_header_burger">
@@ -139,7 +141,7 @@
                         <ul class="panel__list">
                             <li class="panel__link"><a href="menu.html">Меню</a></li>
                             <li class="panel__link"><a href="index.html#about">О нас</a></li>
-                            <li class="panel__link"><a href="#">Доставка</a></li>
+                            <li class="panel__link"><a href="index.html#deliveryoption">Доставка</a></li>
                             <li class="panel__link"><a href="index.html#contact">Контакты</a></li>
                         </ul>
                     </nav>
@@ -165,11 +167,11 @@
 
     <section class="unit">
         <div class="container">
-            <h2 class="unit_title">Пельмени</h2>
+            <h2 class="unit_title" id="pelmeni">Пельмени</h2>
             <h3 class="unit_subtitle"> Цена указана за 1 кг.</h3>
             <div class="unit_wrapper">
                 <div class="unit_item">
-                    <img src="img/menupage/pelm_meat.jpg" alt="">
+                    <img src="img/menupage/pelm_meat.jpg" alt="пельмени">
                     <h3 class="unit_name">Свинина и говядина</h3>
                     <p class="unit_descr">свинина, говядина (50\50), мука, вода, лук, соль, перец</p>
                     <div class="unit_priceandorder">
@@ -189,7 +191,7 @@
                     </div>
                 </div>
                 <div class="unit_item">
-                    <img src="img/menupage/pelm_meatfish.jpg" alt="">
+                    <img src="img/menupage/pelm_meatfish.jpg" alt="пельмени с индейкой">
                     <h3 class="unit_name">индейка</h3>
                     <p class="unit_descr">индейка, лук, соль, перец, сливки, мука, вода, кабачок, сливочное масло</p>
                     <div class="unit_priceandorder">
@@ -208,7 +210,7 @@
                     </div>
                 </div>
                 <div class="unit_item">
-                    <img src="img/menupage/pelm_3.jpg" alt="">
+                    <img src="img/menupage/pelm_3.jpg" alt="пельмени с курицей">
                     <h3 class="unit_name">курица с адыгейским сыром</h3>
                     <p class="unit_descr">70% курица, 30% адыгейский сыр, лук, сливочное масло, мука, вода
                     </p>
@@ -228,7 +230,7 @@
                     </div>
                 </div>
                 <div class="unit_item">
-                    <img src="img/menupage/pelm_meatfish.jpg" alt="">
+                    <img src="img/menupage/pelm_meatfish.jpg" alt="пельмени с рыбой">
                     <h3 class="unit_name">рыба</h3>
                     <p class="unit_descr"> рыба красная или белая на выбор при согласовании, лук, соль, перец, мука,
                         вода</p>
@@ -255,11 +257,11 @@
 
     <section class="unit">
         <div class="container">
-            <h2 class="unit_title">Вареники</h2>
+            <h2 class="unit_title" id="vareniki">Вареники</h2>
             <h3 class="unit_subtitle"> Цена указана за 1 кг.</h3>
             <div class="unit_wrapper">
                 <div class="unit_item">
-                    <img src="img/menupage/pelm_meat.jpg" alt="">
+                    <img src="img/menupage/vareniki_normal.jpg" alt="вареники c картошкой" width="367px">
                     <h3 class="unit_name">картошка</h3>
                     <p class="unit_descr">картошка, соль, перец, лук, зелень, сливочное масло, мука, вода</p>
                     <div class="unit_priceandorder">
@@ -278,7 +280,7 @@
                     </div>
                 </div>
                 <div class="unit_item">
-                    <img src="img/menupage/pelm_2.jpg" alt="">
+                    <img src="img/menupage/vareniki_normal.jpg" alt="вареники с картошкой и беконом" width="367px">
                     <h3 class="unit_name">картошка бекон</h3>
                     <p class="unit_descr">картошка, бекон, соль, перец, лук, зелень, мука, вода</p>
                     <div class="unit_priceandorder">
@@ -297,7 +299,7 @@
                     </div>
                 </div>
                 <div class="unit_item">
-                    <img src="img/menupage/pelm_3.jpg" alt="">
+                    <img src="img/menupage/vareniki_normal.jpg" alt="вареники картошка грибы" width="367px">
                     <h3 class="unit_name">картошка грибы</h3>
                     <p class="unit_descr">картошка, грибы, соль, перец, лук, зелень, сливочное масло, мука, вода</p>
                     <div class="unit_priceandorder">
@@ -316,7 +318,7 @@
                     </div>
                 </div>
                 <div class="unit_item">
-                    <img src="img/menupage/pelm_2.jpg" alt="">
+                    <img src="img/menupage/vareniki_cherry.jpg" alt="вареники с творогом" width="367px">
                     <h3 class="unit_name">творог сладкий</h3>
                     <p class="unit_descr"> творог, сахар, яйцо, изюм (при согласовании +50р), мука, вода</p>
                     <div class="unit_priceandorder">
@@ -336,7 +338,7 @@
                 </div>
 
                 <div class="unit_item">
-                    <img src="img/menupage/pelm_2.jpg" alt="">
+                    <img src="img/menupage/vareniki_normal.jpg" alt="вареники с творогом и солью" width="367px">
                     <h3 class="unit_name">творог соленый</h3>
                     <p class="unit_descr"> творог, соль, яйцо, зелень (при согласовании +50 руб), мука, вода</p>
                     <div class="unit_priceandorder">
@@ -356,7 +358,7 @@
                 </div>
 
                 <div class="unit_item">
-                    <img src="img/menupage/pelm_2.jpg" alt="">
+                    <img src="img/menupage/vareniki_normal.jpg" alt="вареники с сулугуни" width="367px">
                     <h3 class="unit_name">сулугуни с зеленью</h3>
                     <p class="unit_descr">сыр сулугуни, зелень, мука, вода</p>
                     <div class="unit_priceandorder">
@@ -376,9 +378,9 @@
                 </div>
 
                 <div class="unit_item">
-                    <img src="img/menupage/pelm_2.jpg" alt="">
+                    <img src="img/menupage/vareniki_cherry.jpg" alt="вареники с вишней" width="367px">
                     <h3 class="unit_name">вишня</h3>
-                    <p class="unit_descr">вишня, мука, вода</p>
+                    <p class="unit_descr">вишня, мука, сахар, вода</p>
                     <div class="unit_priceandorder">
                         <div class="unit_price"> <span class="wicartprice" id="wicartprice_011">700 </span>руб</div>
                         <button class="menu_btn" id="cartbutton_011"
@@ -403,11 +405,11 @@
 
     <section class="unit">
         <div class="container">
-            <h2 class="unit_title">Равиоли</h2>
+            <h2 class="unit_title" id="ravioli">Равиоли</h2>
             <h3 class="unit_subtitle"> Цена указана за 400 гр.</h3>
             <div class="unit_wrapper">
                 <div class="unit_item">
-                    <img src="img/menupage/art_pink_duck.jpg" alt="">
+                    <img src="img/menupage/art_pink_duck.jpg" alt="равиоли с семгой">
                     <h3 class="unit_name">Семга со сливочным сыром</h3>
                     <p class="unit_descr">семга, сливочный сыр, соль, перец, мука, вода, яйцо</p>
                     <div class="unit_priceandorder">
@@ -426,7 +428,7 @@
                     <!-- </div> -->
                 </div>
                 <div class="unit_item">
-                    <img src="img/menupage/art_pink_duck.jpg" alt="">
+                    <img src="img/menupage/art_pink_duck.jpg" alt="равиоли с сулугуни">
                     <h3 class="unit_name">Сулугуни с зеленью</h3>
                     <p class="unit_descr">сыр сулугуни, зелень, мука, вода, яйцо</p>
                     <div class="unit_priceandorder">
@@ -445,7 +447,7 @@
                     <!-- </div> -->
                 </div>
                 <div class="unit_item">
-                    <img src="img/menupage/art_pink_duck.jpg" alt="">
+                    <img src="img/menupage/art_pink_duck.jpg" alt="равиоли с риккотой и шпинатом">
                     <h3 class="unit_name">Риккота со шпинатом</h3>
                     <p class="unit_descr">Сыр риккота, шпинатом, мука, вода, яйцо</p>
                     <div class="unit_priceandorder">
@@ -464,7 +466,7 @@
                     <!-- </div> -->
                 </div>
                 <div class="unit_item">
-                    <img src="img/menupage/art_pink_duck.jpg" alt="">
+                    <img src="img/menupage/art_pink_duck.jpg" alt="равиоли с телятиной">
                     <h3 class="unit_name">Телятина</h3>
                     <p class="unit_descr"> телятина, лук, соль, перец, мука, вода, яйцо</p>
                     <div class="unit_priceandorder">
@@ -484,7 +486,7 @@
                 </div>
 
                 <div class="unit_item">
-                    <img src="img/menupage/art_pink_duck.jpg" alt="">
+                    <img src="img/menupage/art_pink_duck.jpg" alt="равиоли с моцареллой и томатами">
                     <h3 class="unit_name">Моцарелла с томатом</h3>
                     <p class="unit_descr">сыр моцарелла, помидоры, соль, перец, мука, вода, яйцо</p>
                     <div class="unit_priceandorder">
@@ -504,9 +506,9 @@
                 </div>
 
                 <div class="unit_item">
-                    <img src="img/menupage/art_pink_duck.jpg" alt="">
+                    <img src="img/menupage/art_pink_duck.jpg" alt="равиоли 4 сыра">
                     <h3 class="unit_name">4 сыра</h3>
-                    <p class="unit_descr">сыр моцарелла, сыр рикотта, сыр с плесенью, мука, вода, яйцо</p>
+                    <p class="unit_descr">сыр моцарелла, сыр рикотта, сыр чеддер, сыр с плесенью, мука, вода, яйцо</p>
                     <div class="unit_priceandorder">
                         <div class="unit_price"> <span class="wicartprice" id="wicartprice_017">700 </span>руб</div>
                         <button class="menu_btn" id="cartbutton_017"
@@ -524,7 +526,7 @@
                 </div>
 
                 <div class="unit_item">
-                    <img src="img/menupage/art_pink_duck.jpg" alt="">
+                    <img src="img/menupage/art_pink_duck.jpg" alt="равиоли с курицей и грибами">
                     <h3 class="unit_name">Курица с грибами</h3>
                     <p class="unit_descr">курица, грибы шампиньоны, лук, соль, перец, мука, вода, яйцо</p>
                     <div class="unit_priceandorder">
@@ -549,11 +551,11 @@
 
     <section class="unit">
         <div class="container">
-            <h2 class="unit_title">блины</h2>
+            <h2 class="unit_title" id="blini">блины</h2>
             <h3 class="unit_subtitle"> Цена указана за 1 кг.</h3>
             <div class="unit_wrapper">
                 <div class="unit_item">
-                    <img src="img/menupage/pancake_originstraw.jpg" alt="">
+                    <img src="img/menupage/pancake_originstraw.jpg" alt="блины">
                     <h3 class="unit_name">Классические</h3>
                     <p class="unit_descr">мука, яйцо, молоко, соль, сахар</p>
                     <div class="unit_priceandorder">
@@ -572,7 +574,7 @@
                     </div>
                 </div>
                 <div class="unit_item">
-                    <img src="img/menupage/pancake_full.jpg" alt="">
+                    <img src="img/menupage/pancake_full.jpg" alt="блины с мясом">
                     <h3 class="unit_name">с мясом</h3>
                     <p class="unit_descr">говядина, мука, яйцо, молоко, лук, масло слив, перец, соль</p>
                     <div class="unit_priceandorder">
@@ -591,7 +593,7 @@
                     </div>
                 </div>
                 <div class="unit_item">
-                    <img src="img/menupage/pancake_originsweet.jpg" alt="">
+                    <img src="img/menupage/pancake_originsweet.jpg" alt="блины с творогом">
                     <h3 class="unit_name">Творог</h3>
                     <p class="unit_descr">Творог, изюм, мука, яйцо, молоко, сахар, соль</p>
                     <div class="unit_priceandorder">
@@ -610,7 +612,7 @@
                     </div>
                 </div>
                 <div class="unit_item">
-                    <img src="img/menupage/pancake_full.jpg" alt="">
+                    <img src="img/menupage/pancake_full.jpg" alt="блины с индейкой">
                     <h3 class="unit_name">Индейка</h3>
                     <p class="unit_descr"> индейка, лук, мука, яйцо, молоко, масло слив, соль, перец</p>
                     <div class="unit_priceandorder">
@@ -638,11 +640,11 @@
 
     <section class="unit">
         <div class="container">
-            <h2 class="unit_title">Авторские вареники и пельмени</h2>
+            <h2 class="unit_title" id="avtor">Авторские и арт вареники и пельмени</h2>
             <h3 class="unit_subtitle"> Цена указана за 400гр.</h3>
             <div class="unit_wrapper">
                 <div class="unit_item">
-                    <img src="img/menupage/panda_art.jpg" alt="">
+                    <img src="img/menupage/panda_art.jpg" alt="пельмени панды">
                     <h3 class="unit_name">Панды с индейкой</h3>
                     <p class="unit_descr">индейка, лук, соль, перец, сливки, кабачок, сливочное масло, мука, вода</p>
                     <div class="unit_priceandorder">
@@ -661,7 +663,7 @@
                     <!-- </div> -->
                 </div>
                 <div class="unit_item">
-                    <img src="img/menupage/ovech_art.jpg" alt="">
+                    <img src="img/menupage/ovech_art.jpg" alt="пельмени овечки">
                     <h3 class="unit_name">Овечки с индейкой</h3>
                     <p class="unit_descr">индейка, лук, соль, перец, сливки, кабачок, сливочное масло, мука, вода</p>
                     <div class="unit_priceandorder">
@@ -680,7 +682,7 @@
                     <!-- </div> -->
                 </div>
                 <div class="unit_item">
-                    <img src="img/menupage/smile_art.jpg" alt="">
+                    <img src="img/menupage/smile_art.jpg" alt="пельмени смайлики">
                     <h3 class="unit_name">Смайлики с индейкой</h3>
                     <p class="unit_descr">индейка, лук, соль, перец, сливки, кабачок, сливочное масло, мука, вода</p>
                     <div class="unit_priceandorder">
@@ -699,7 +701,7 @@
                     <!-- </div> -->
                 </div>
                 <div class="unit_item">
-                    <img src="img/menupage/minion_art.jpg" alt="">
+                    <img src="img/menupage/minion_art.jpg" alt="пельмени миньоны">
                     <h3 class="unit_name">Миньоны с индейкой</h3>
                     <p class="unit_descr"> индейка, лук, соль, перец, сливки, кабачок, сливочное масло, мука, вода</p>
                     <div class="unit_priceandorder">
@@ -719,7 +721,7 @@
                 </div>
 
                 <div class="unit_item">
-                    <img src="img/menupage/tortle_art.jpg" alt="">
+                    <img src="img/menupage/tortle_art.jpg" alt="пельмени черепашки">
                     <h3 class="unit_name">Черепашки с индейкой</h3>
                     <p class="unit_descr"> индейка, лук, соль, перец, сливки, кабачок, сливочное масло, мука, вода</p>
                     <div class="unit_priceandorder">
@@ -739,50 +741,8 @@
                 </div>
 
                 <div class="unit_item">
-                    <img src="img/menupage/fox_art.jpg" alt="">
+                    <img src="img/menupage/fox_art.jpg" alt="пельмени лисички">
                     <h3 class="unit_name">Лисички с картошкой</h3>
-                    <p class="unit_descr"> картошка, соль, перец, лук, зелень, сливочное масло, краситель натуральный,
-                        мука, вода</p>
-                    <div class="unit_priceandorder">
-                        <div class="unit_price"> <span class="wicartprice" id="wicartprice_027">600 </span>руб</div>
-                        <button class="menu_btn" id="cartbutton_027"
-                            onclick="cart.addToCart(this, '027', priceList['027'])">Заказать</button>
-                    </div>
-                    <!-- <div class="unit_option">
-                        <input class="wicartoptional" checked type="radio" value="0" name="dough_022" data-good-id="022"
-                            data-subid="o" data-option-name="original"><span>Обычные
-                        </span><br />
-                        <input class="wicartoptional" type="radio" value="300" name="dough_022" data-good-id="022"
-                            data-subid="gf" data-option-name="gluten_free"><span>Без глютена (+300р)</span><br /> -->
-                    <!-- <input type="checkbox"> <span> безглютеновые +300 руб.
-                        </span> -->
-                    <!-- </div> -->
-                </div>
-
-                <div class="unit_item">
-                    <img src="img/menupage/ciplata_art.jpg" alt="">
-                    <h3 class="unit_name">Цыплята с картошкой</h3>
-                    <p class="unit_descr"> картошка, соль, перец, лук, зелень, сливочное масло, краситель натуральный,
-                        мука, вода</p>
-                    <div class="unit_priceandorder">
-                        <div class="unit_price"> <span class="wicartprice" id="wicartprice_027">600 </span>руб</div>
-                        <button class="menu_btn" id="cartbutton_027"
-                            onclick="cart.addToCart(this, '027', priceList['027'])">Заказать</button>
-                    </div>
-                    <!-- <div class="unit_option">
-                        <input class="wicartoptional" checked type="radio" value="0" name="dough_022" data-good-id="022"
-                            data-subid="o" data-option-name="original"><span>Обычные
-                        </span><br />
-                        <input class="wicartoptional" type="radio" value="300" name="dough_022" data-good-id="022"
-                            data-subid="gf" data-option-name="gluten_free"><span>Без глютена (+300р)</span><br /> -->
-                    <!-- <input type="checkbox"> <span> безглютеновые +300 руб.
-                        </span> -->
-                    <!-- </div> -->
-                </div>
-
-                <div class="unit_item">
-                    <img src="img/menupage/art1.jpg" alt="">
-                    <h3 class="unit_name">свинина и говядина</h3>
                     <p class="unit_descr"> картошка, соль, перец, лук, зелень, сливочное масло, краситель натуральный,
                         мука, вода</p>
                     <div class="unit_priceandorder">
@@ -801,11 +761,11 @@
                     <!-- </div> -->
                 </div>
 
-
                 <div class="unit_item">
-                    <img src="img/menupage/art1.jpg" alt="">
-                    <h3 class="unit_name">пряная утка с имбирем</h3>
-                    <p class="unit_descr"> филе утки, имбирь, соль, перец, лук, мука, вода, краситель нат.</p>
+                    <img src="img/menupage/ciplata_art.jpg" alt="пельмени цыплята">
+                    <h3 class="unit_name">Цыплята с картошкой</h3>
+                    <p class="unit_descr"> картошка, соль, перец, лук, зелень, сливочное масло, краситель натуральный,
+                        мука, вода</p>
                     <div class="unit_priceandorder">
                         <div class="unit_price"> <span class="wicartprice" id="wicartprice_029">600 </span>руб</div>
                         <button class="menu_btn" id="cartbutton_029"
@@ -822,17 +782,59 @@
                     <!-- </div> -->
                 </div>
 
-
-
                 <div class="unit_item">
-                    <img src="img/menupage/art1.jpg" alt="">
-                    <h3 class="unit_name">тофу, шпинат, кедровые орехи</h3>
-                    <p class="unit_descr"> тофу, шпинат, кедровые орехи, соль, краситель натуральный, специи, мука, вода
-                    </p>
+                    <img src="img/menupage/art1.jpg" alt="пельмени авторские">
+                    <h3 class="unit_name">свинина и говядина</h3>
+                    <p class="unit_descr"> картошка, соль, перец, лук, зелень, сливочное масло, краситель натуральный,
+                        мука, вода</p>
                     <div class="unit_priceandorder">
                         <div class="unit_price"> <span class="wicartprice" id="wicartprice_030">600 </span>руб</div>
                         <button class="menu_btn" id="cartbutton_030"
                             onclick="cart.addToCart(this, '030', priceList['030'])">Заказать</button>
+                    </div>
+                    <!-- <div class="unit_option">
+                        <input class="wicartoptional" checked type="radio" value="0" name="dough_022" data-good-id="022"
+                            data-subid="o" data-option-name="original"><span>Обычные
+                        </span><br />
+                        <input class="wicartoptional" type="radio" value="300" name="dough_022" data-good-id="022"
+                            data-subid="gf" data-option-name="gluten_free"><span>Без глютена (+300р)</span><br /> -->
+                    <!-- <input type="checkbox"> <span> безглютеновые +300 руб.
+                        </span> -->
+                    <!-- </div> -->
+                </div>
+
+
+                <div class="unit_item">
+                    <img src="img/menupage/art1.jpg" alt="пельмени цветные">
+                    <h3 class="unit_name">пряная утка с имбирем</h3>
+                    <p class="unit_descr"> филе утки, имбирь, соль, перец, лук, мука, вода, краситель нат.</p>
+                    <div class="unit_priceandorder">
+                        <div class="unit_price"> <span class="wicartprice" id="wicartprice_031">600 </span>руб</div>
+                        <button class="menu_btn" id="cartbutton_031"
+                            onclick="cart.addToCart(this, '031', priceList['031'])">Заказать</button>
+                    </div>
+                    <!-- <div class="unit_option">
+                        <input class="wicartoptional" checked type="radio" value="0" name="dough_022" data-good-id="022"
+                            data-subid="o" data-option-name="original"><span>Обычные
+                        </span><br />
+                        <input class="wicartoptional" type="radio" value="300" name="dough_022" data-good-id="022"
+                            data-subid="gf" data-option-name="gluten_free"><span>Без глютена (+300р)</span><br /> -->
+                    <!-- <input type="checkbox"> <span> безглютеновые +300 руб.
+                        </span> -->
+                    <!-- </div> -->
+                </div>
+
+
+
+                <div class="unit_item">
+                    <img src="img/menupage/art1.jpg" alt="пельмени дизайнерсике">
+                    <h3 class="unit_name">тофу, шпинат, кедровые орехи</h3>
+                    <p class="unit_descr"> тофу, шпинат, кедровые орехи, соль, краситель натуральный, специи, мука, вода
+                    </p>
+                    <div class="unit_priceandorder">
+                        <div class="unit_price"> <span class="wicartprice" id="wicartprice_032">600 </span>руб</div>
+                        <button class="menu_btn" id="cartbutton_032"
+                            onclick="cart.addToCart(this, '032', priceList['032'])">Заказать</button>
                     </div>
                     <!-- <div class="unit_option">
                         <input class="wicartoptional" checked type="radio" value="0" name="dough_022" data-good-id="022"
@@ -876,7 +878,7 @@
             <!-- <input type="checkbox" value="V"> Предоплата -->
         </form>
         <div class="contact_policy">
-            <input required type="checkbox"> <span>Я согласен с <a href="privacy.html">политикой
+            <span>Отправляя эту форму вы соглашаетесь с <a href="privacy.html">политикой
                     конфиденциальности</a>
             </span>
         </div>

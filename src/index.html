@@ -10,6 +10,7 @@
     <meta name="description"
         content="Здесь вы сможете заказать вкуснейшие равиоли, пельмени, вареники ручной лепки по привлекательным ценам"> -->
 
+
     <!-- Primary Meta Tags -->
     <title>Лавка вкусной натуральной еды</title>
     <meta name="title" content="Лавка вкусной натуральной еды">
@@ -17,21 +18,21 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:url" content="http://vkusno-eda.com/">
     <meta property="og:title" content="Лавка вкусной натуральной еды">
     <meta property="og:description"
         content="Самая вкусная и необычная продукция ручного изготовления по выгодным ценам!">
-    <meta property="og:image"
-        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <meta property="og:image" content="">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:url" content="http://vkusno-eda.com/">
     <meta property="twitter:title" content="Лавка вкусной натуральной еды">
     <meta property="twitter:description"
         content="Самая вкусная и необычная продукция ручного изготовления по выгодным ценам!">
-    <meta property="twitter:image"
-        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <meta property="twitter:image" content="">
+
+
 
     <!-- Favicon  -->
     <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon//apple-icon-57x57.png">
@@ -53,8 +54,10 @@
     <meta name="theme-color" content="#ffffff">
     <!-- <link rel="stylesheet" href="sass/libs/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="sass/libs/bootstrap-grid.min.css"> -->
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script> -->
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.min.css">
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script> -->
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
@@ -112,9 +115,11 @@
             "027": { "id": "027", "subid": {}, "name": "черепашки с индейкой", "price": "600" },
 
 
-            "028": { "id": "028", "subid": {}, "name": " с индейкой", "price": "600" },
-            "029": { "id": "029", "subid": {}, "name": "миньоны с индейкой", "price": "600" },
-            "030": { "id": "030", "subid": {}, "name": "черепашки с индейкой", "price": "600" },
+            "028": { "id": "028", "subid": {}, "name": "лисички с картошкой", "price": "600" },
+            "029": { "id": "029", "subid": {}, "name": "цыплята с картошкой", "price": "600" },
+            "030": { "id": "030", "subid": {}, "name": "цветные свин. и говядиной", "price": "600" },
+            "031": { "id": "030", "subid": {}, "name": "цветные утка имбирь", "price": "600" },
+            "032": { "id": "030", "subid": {}, "name": "цветные тофу, шпинат, кедров", "price": "600" },
 
         };
     </script>
@@ -127,12 +132,12 @@
         <div class="container">
             <header class="promo_header">
                 <a href="index.html" class="promo_logo">
-                    <img src="icons/logo/vala logo final.svg" alt="lorem">
+                    <img src="icons/logo/vala logo final.svg" alt="vala лого">
                 </a>
                 <div class="promo_header_menu">
                     <a href="menu.html" class="promo_header_link">Меню</a>
                     <a href="#about" class="promo_header_link">О нас</a>
-                    <a href="" class="promo_header_link">Доставка</a>
+                    <a href="#deliveryoption" class="promo_header_link">Доставка</a>
                     <a href="#contact" class="promo_header_link_contacts btn_contact">Контакты</a>
                 </div>
                 <div class="promo_header_burger">
@@ -141,9 +146,9 @@
                 <div class="panel">
                     <div class="panel_close">
                         <svg width="35" height="38" viewBox="0 0 35 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3.61426 34L32.0002 4.29833" stroke="#4C4C4C" stroke-width="5"
+                            <path d="M3.61426 34L32.0002 4.29833" stroke="#4C4C4C" stroke-width="4"
                                 stroke-linecap="round" />
-                            <path d="M31.386 33.7017L3.00009 4" stroke="#4C4C4C" stroke-width="5"
+                            <path d="M31.386 33.7017L3.00009 4" stroke="#4C4C4C" stroke-width="4"
                                 stroke-linecap="round" />
                         </svg>
 
@@ -151,8 +156,8 @@
                     <nav>
                         <ul class="panel__list">
                             <li class="panel__link"><a href="menu.html">Меню</a></li>
-                            <li class="panel__link"><a href="#about">О нас</a></li>
-                            <li class="panel__link"><a href="#">Доставка</a></li>
+                            <li class="panel__link"><a href="#about">Как это работает</a></li>
+                            <li class="panel__link"><a href="#deliveryoption">Доставка</a></li>
                             <li class="panel__link"><a href="#contact">Контакты</a></li>
                         </ul>
                     </nav>
@@ -173,7 +178,7 @@
             </h1>
             <div class="promo__btns">
                 <a href="menu.html" class="promo__link btn">Меню</a>
-                <a href="#contacts" class="promo__link promo__link_order btn_order">Сделать заказ</a>
+                <a href="#contact" class="promo__link promo__link_order btn_order">Сделать заказ</a>
 
             </div>
 
@@ -186,12 +191,12 @@
         <div class="container">
             <h2 class="about2_title">Как это работает</h2>
             <div class="about2">
-                <img src="icons/howitworks/ecommerce_green.svg" alt="" class="about2_pic">
-                <div class="about2_text">Вы выбираете продукцию и оствляете заявку на сайте или связывайтесь со мной
+                <img src="icons/howitworks/ecommerce_green.svg" alt="choose" class="about2_pic">
+                <div class="about2_text">Вы выбираете продукцию и оставляете заявку на сайте или связывайтесь со мной
                     через контакты </div>
-                <img src="icons/howitworks/phone-call_green.svg" alt="" class="about2_pic">
+                <img src="icons/howitworks/phone-call_green.svg" alt="phone" class="about2_pic">
                 <div class="about2_text">Я свяжусь с вами, и мы согласуем ваш заказ</div>
-                <img src="icons/howitworks/delivery-box_green.svg" alt="" class="about2_pic">
+                <img src="icons/howitworks/delivery-box_green.svg" alt="hand" class="about2_pic">
                 <div class="about2_text">Вы получаете вашу продукцию в установленное время</div>
             </div>
 
@@ -199,7 +204,7 @@
 
             <div class="about_wrapper">
 
-                <div class="about_pic"> <img src="img/about_pic.png" alt="" class="about_pic_img"></div>
+                <div class="about_pic"> <img src="img/about_pic.png" alt="зелень" class="about_pic_img"></div>
 
                 <!-- <div class="about_descr"> -->
 
@@ -227,23 +232,23 @@
         <div class="container">
             <h2 class="menu_title">Меню</h2>
             <div class="menu_wrapper">
-                <a href="" class="menu_link item1">
+                <a href="menu.html#pelmeni" class="menu_link item1">
 
                     <div class="menu_name">Пельмени</div>
                 </a>
-                <a href="" class="menu_link item2">
+                <a href="menu.html#vareniki" class="menu_link item2">
 
                     <div class="menu_name">Вареники</div>
                 </a>
-                <a href="" class="menu_link item3">
+                <a href="menu.html#blini" class="menu_link item3">
 
                     <div class="menu_name">Торты и блины</div>
                 </a>
-                <a href="" class="menu_link item4">
+                <a href="menu.html#ravioli" class="menu_link item4">
 
                     <div class="menu_name">Равиоли</div>
                 </a>
-                <a href="" class="menu_link item5">
+                <a href="menu.html#avtor" class="menu_link item5">
 
                     <div class="menu_name">Авторские и Арт пельмени</div>
                 </a>
@@ -260,17 +265,25 @@
             <div class="contact_social">
                 <a href="tel:+79779141873" class="contact_social_item ">
                     <img class="img_social_cont" src="icons/social/Phone1.svg" width="50" height="48"
-                        alt="">+79779141873
+                        alt="телефон">+79779141873
                 </a>
                 <div class="contact_social_item email">
                     <img class="img_social_cont" src="icons/social/Email1.svg" width="50" height="48"
-                        alt="">vala9vala@gmail.com
+                        alt="почта">vala9vala@gmail.com
                 </div>
                 <div class="contact_social_item insta">
-                    <img class="img_social_cont" src="icons/social/insta1.svg" width="50" height="50" alt="">&&&&&&&&
+                    <img class="img_social_cont" src="icons/social/insta1.svg" width="50" height="50"
+                        alt="инста">@vala_tasty_cookery
                 </div>
 
 
+            </div>
+
+            <div class="contact_address">
+                <div class="contact_address_descr">
+                    117642, ул. Изюмская, дом 39, корпус 1. <br> 15 мин пешком от метро ул Скобелевская
+                </div>
+                <div id="map"></div>
             </div>
             <p class="contact_order">Вы также можете задать свой вопрос, оставить комментарий или сделать заказ,
                 воспользовавшись формой
@@ -291,6 +304,52 @@
             </form>
         </div>
     </section>
+
+    <section class="deliveryoption" id="deliveryoption">
+        <div class="container">
+            <div class="title_delivery">Доставка</div>
+            <ul class="deliveryoption_list">
+                <li>По Бутово доставка бесплатно.</li>
+                <li>По москве доставка 500 руб до дома (в пределах МКАД или не более 5 км от МКАД) и 350 до станции
+                    метро.</li>
+                <li>При заказе от 5000 руб доставка бесплатно.</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <div id="order" class="popup">
+        <a href="#" onclick="cart.closeWindow('order', 0)">[закрыть]</a>
+        <h4>Введите ваши контактные данные</h4>
+
+        <form id="formToSend">
+            <input name="fio" id="fio" type="text" placeholder="Ваши фамилия и имя" class="" />
+            <input name="city" id="city" type="text" placeholder="Город" class="text-input" />
+            <input name="phone" id="phone" type="text" placeholder="Контактный телефон" class="text-input" />
+            <input name="email" id="email" type="text" placeholder="Электронная почта" class="" />
+            <br>
+            <textarea id="question" placeholder="Адрес"></textarea>
+            <br>
+            <b>Доставка:</b>
+            <br>
+            <select id="delivery">
+                <option value="-">-</option>
+                <option value="Доставка">Доставка</option>
+                <option value="Самовывоз">Самовывоз</option>
+                <!-- <option value="DHL">DHL</option>
+                <option value="TNT">TNT</option> -->
+            </select>
+            <br>
+            <!-- <input type="checkbox" value="V"> Предоплата -->
+        </form>
+        <div class="contact_policy">
+            <span>Отправляя эту форму вы соглашаетесь с <a href="privacy.html">политикой
+                    конфиденциальности</a>
+            </span>
+        </div>
+        <button onclick="cart.sendOrder('formToSend,overflw,bsum');" href="#">Отправить заказ</button>
+
+    </div>
 
 
 
@@ -317,11 +376,13 @@
     </script>
 
 
-
+    <script src="js/index.js"></script>
 
     <script src="js/script.js"></script>
 
-
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCw0Grh49S0KThNRo7ioEdOatNAqO69B9M&callback=initMap&libraries=&v=weekly?banner=off"
+        async></script>
 </body>
 
 </html>
